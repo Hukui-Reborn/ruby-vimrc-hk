@@ -3,7 +3,9 @@
 ## 备份说明
 
 - vimrc为配置文件
-- snippets/eruby.snippets 为自己修改后添加了lt,lt",ltd三个snippets。
+- snippets/eruby.snippets 修改添加了lt,lt",ltd三个snippets。
+- snippets/markdown.snippets 修改添加了orid 这个 snippets .
+- snippets/rails.snippets 修改了flash 这个 snippets, 把单引号变成了双引号,以便兼容#{}.
 - colors/molokai.vim为颜色配置文件
 
 ## 使用说明：
@@ -20,13 +22,13 @@ $ cp ruby-vimrc-hk/vimrc ~/.vimrc
 # 新增VIM配色文件夹
 $ mkdir ~/.vim/colors
 # 将molokai.vim配色文件拷贝到配色文件夹
-$ cp ruby-vimrc-hk/colors/molokai.vim ~/.vim/colors 
+$ cp ruby-vimrc-hk/colors/molokai.vim ~/.vim/colors
 # 打开vim
 $ vim
   # 在VIM界面输入以下指令
   :PluginInstall
   # 等待插件安装完成, 重启 vim
-  :q! 
+  :q!
 ```
 
 ## 如何使用
