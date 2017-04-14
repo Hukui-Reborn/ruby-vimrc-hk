@@ -70,7 +70,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 let g:user_emmet_install_global = 0
 let g:user_emmet_mode='iv'
-let g:user_emmet_expandabbr_key = '<Tab>'
+let g:user_emmet_expandabbr_key = '<c-e>'
 autocmd FileType html,css,scss,eruby EmmetInstall
 " power vim plugin for rails
 Plugin 'tpope/vim-rails.git'
