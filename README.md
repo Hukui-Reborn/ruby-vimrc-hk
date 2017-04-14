@@ -35,6 +35,6 @@ $ vim
 
 这里面大量配置来源于此：https://github.com/windy/ruby-vimrc
 
-使用方法参见：https://ruby-china.org/topics/19315
+使用方法参见：http://hukui-blog.logdown.com/posts/2017/04/13/configuration-of-vim-for-ruby-development-explore
 
 snippets使用方法参见：http://hukui-blog.logdown.com/posts/2017/04/12/1697956
