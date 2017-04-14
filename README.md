@@ -30,6 +30,12 @@ $ vim
   # 等待插件安装完成, 重启 vim
   :q!
 ```
+如果你也想使用我修改后的 snippets, 请进行如下操作:
+```
+ cp ~/ruby-vimrc-hk/snippets/markdown.snippets ~/.vim/bundle/vim-snippets/snippets/markdown.snippets
+ cp ~/ruby-vimrc-hk/snippets/rails.snippets ~/.vim/bundle/vim-snippets/snippets/rails.snippets
+ cp ~/ruby-vimrc-hk/snippets/eruby.snippets ~/.vim/bundle/vim-snippets/snippets/eruby.snippets
+```
 
 ## 如何使用
 
