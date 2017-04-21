@@ -1,5 +1,7 @@
 # ruby-vimrc-hk （VIM设置备份）
-
+## 2017-4-21更新：
+- vimrc中增加了Ack快速搜索工具，可以快速搜索整个项目。
+- vimrc中添加了vim-coloresque来显示css的颜色代码的实际颜色。
 ## 备份说明
 
 - vimrc为配置文件
