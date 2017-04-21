@@ -23,10 +23,14 @@ syntax on
 autocmd FileType css,scss,slim,html,eruby,coffee,javascript setlocal iskeyword+=-
 autocmd Filetype python setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
+" markdown 不折叠
+autocmd BufNewFile,BufRead *.md set nofoldenable
+
 " vim 7.4 backspace fix
 set backspace=indent,eol,start
 set t_Co=256
 " colorscheme, read here: http://vim.wikia.com/wiki/Change_the_color_scheme
+set background=dark
 colorscheme molokai
 autocmd BufWritePre * :%s/\s\+$//e
 
@@ -40,13 +44,18 @@ Plugin 'tpope/vim-surround'
 Bundle 'Raimondi/delimitMate'
 Plugin 'tpope/vim-dispatch'
 "Bundle 'Valloric/YouCompleteMe'
+"CSS color show(css颜色显示)
+Plugin 'gorodinskiy/vim-coloresque'
 "以下5行是代码补全snipmate相关的插件
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 " Optional:
 Plugin 'honza/vim-snippets'
-
+"Ack全局搜索插件
+Plugin 'mileszs/ack.vim'
+"Ack的快捷键设置为F4
+:map <F4> :Ack -i
 if has("gui_running")
   colorscheme desert
   set bs=2
@@ -119,5 +128,4 @@ map <c-o> :CtrlPBuffer<CR>
 Plugin 'JulesWang/css.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'isRuslan/vim-es6'
-
 call vundle#end()
